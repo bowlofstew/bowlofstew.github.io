@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions: ["tables"]
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Bowl of Stew
+tagline:          'Software developer'
+description:      'The personal website of Stewart Henderson'
+url:              http://bowlofstew.com
+paginate:         1
+baseurl:          /
+author:
+  name:           Stewart Henderson
+  url:            https://twitter.com/__shenderson__
+  email:          henderson.geoffrey@gmail.com
+
+github:
+  repo:           github.com/bowlofstew/bowlofstew.github.io
+
+version:          1.0.0
+
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
+gems:
+  - jekyll-redirect-from

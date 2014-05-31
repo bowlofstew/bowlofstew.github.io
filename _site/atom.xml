@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Bowl of Stew</title>
+ <link href="http://bowlofstew.com/atom.xml" rel="self"/>
+ <link href="http://bowlofstew.com/"/>
+ <updated>2014-05-30T20:56:44-05:00</updated>
+ <id>http://bowlofstew.com</id>
+ <author>
+   <name>Stewart Henderson</name>
+   <email>henderson.geoffrey@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>GOTO Chicago 2014</title>
+   <link href="http://bowlofstew.com//goto-chicago-conference"/>
+   <updated>2014-05-30T00:00:00-05:00</updated>
+   <id>http://bowlofstew.com/start</id>
+   <content type="html">&lt;h2&gt;&lt;em&gt;Conference Recap&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Our company, Channel IQ, just had the privilege to go to the GOTO Chicago
+conference.  It was phenomenal &amp;amp; thanks to all for making it a great success!  My
+personal favorite presentations were those given by the guys of DRW &amp;amp; Thoughtworks:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://bowlofstew.com/assets/MattGodbolt_X86InternalsForFunAndProfit.pdf&quot;&gt;x86 Internals for Fun and Profit:&lt;/a&gt;&lt;/em&gt;
+This brought back excellent memories of hacking around on the x86 from days long past, thanks!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://bowlofstew.com/assets/DerekGroothuis_and_LyleHayhurst_TechnologyManagementWTF.pdf&quot;&gt;Technology Management, WTF?:&lt;/a&gt;&lt;/em&gt;
+This presentation provided excellent insight into why as a developer, you may
+think your manager is insane!&lt;/p&gt;
+
+&lt;p&gt;There were several great presentations and most of the slide decks are &lt;a href=&quot;http://gotocon.com/chicago-2014/schedule/index.jsp&quot;&gt;available&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll leave you with an interview with Tim Bray, a co-founder of the XML specification, who
+spoke on Tuesday evenings keynote.&lt;/p&gt;
+
+&lt;iframe width=&quot;500&quot; height=&quot;500&quot; src=&quot;http://www.youtube.com/embed/coPidKaHCvI?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+
+</feed>
