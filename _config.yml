@@ -10,10 +10,9 @@ permalink:        pretty
 # Setup
 title:            Bowl of Stew
 tagline:          'Software developer'
-description:      'The personal website of Stewart Henderson'
-url:              http://bowlofstew.com
+url:              http://bowlofstew.github.io
+shorturl:         bowlofstew.github.io
 paginate:         1
-baseurl:          /
 author:
   name:           Stewart Henderson
   url:            https://twitter.com/__shenderson__
