@@ -53,32 +53,85 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="//goto-chicago-conference">
-        GOTO Chicago 2014
+      <a href="//monitoring-financial-instruments">
+        Modelling Instruments
       </a>
     </h1>
 
-    <span class="post-date">30 May 2014</span>
+    <span class="post-date">31 May 2014</span>
 
-    <h2><em>Conference Recap</em></h2>
+    <h2><em>Listed financial instrument modelling</em></h2>
 
-<p>Our company, Channel IQ, just had the privilege to go to the GOTO Chicago
-conference.  It was phenomenal &amp; thanks to all for making it a great success!  My
-personal favorite presentations were those given by the guys of DRW &amp; Thoughtworks:</p>
+<p>I was thinking about modeling exchange listed financial derivatives.  What do
+you think the main actors are that we need to model for (exchange) listed
+derivatives?  Let us think about the data structures.  I will neglect any
+member functions for now below.</p>
 
-<p><em><a href="http://bowlofstew.com/assets/MattGodbolt_X86InternalsForFunAndProfit.pdf">x86 Internals for Fun and Profit:</a></em>
-This brought back excellent memories of hacking around on the x86 from days long past, thanks!</p>
+<p><em>An instrument</em></p>
+<div class="highlight"><pre><code class="c++ language-c++" data-lang="c++"><span class="k">class</span> <span class="nc">Instrument</span> <span class="p">{</span>
+  <span class="nl">private:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">nameM</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>But we need more information though!  What if Gold is traded on 2 exchanges?</p>
 
-<p><em><a href="http://bowlofstew.com/assets/DerekGroothuis_and_LyleHayhurst_TechnologyManagementWTF.pdf">Technology Management, WTF?:</a></em>
-This presentation provided excellent insight into why as a developer, you may
-think your manager is insane!</p>
+<p><em>Let&#39;s add an....Exchange</em></p>
+<div class="highlight"><pre><code class="c++ language-c++" data-lang="c++"><span class="k">class</span> <span class="nc">Exchange</span> <span class="p">{</span>
+  <span class="k">private</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">nameM</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>This now leads us to:</p>
+<div class="highlight"><pre><code class="c++ language-c++" data-lang="c++"><span class="k">class</span> <span class="nc">Instrument</span> <span class="p">{</span>
+  <span class="nl">private:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">nameM</span><span class="p">;</span>
+    <span class="n">Exchange</span> <span class="n">exchangeM</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>But we now have yet another problem, what if the 2 changes trade the instrument
+in difference currencies?  How shall we represent the currency here? A typical
+representation in programming is <a href="http://www.iso.org/iso/home/standards/currency_codes.htm">ISO 4217</a>.
+There is a C++ implementation of <a href="https://github.com/castedo/isomon">this</a> standard available.
+Lets use that:</p>
+<div class="highlight"><pre><code class="c++ language-c++" data-lang="c++"><span class="k">class</span> <span class="nc">Instrument</span> <span class="p">{</span>
+  <span class="nl">private:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">nameM</span><span class="p">;</span>
+    <span class="n">Exchange</span> <span class="n">exchangeM</span><span class="p">;</span>
+    <span class="n">currency</span> <span class="n">currencyM</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>This is all good but we haven&#39;t covered the aspect of a derivative being listed,
+expiring, and last traded on a particular date:</p>
+<div class="highlight"><pre><code class="c++ language-c++" data-lang="c++"><span class="k">class</span> <span class="nc">Instrument</span> <span class="p">{</span>
+  <span class="nl">private:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">nameM</span><span class="p">;</span>
+    <span class="n">Exchange</span> <span class="n">exchangeM</span><span class="p">;</span>
+    <span class="n">currency</span> <span class="n">currencyM</span><span class="p">;</span>
+    <span class="kt">time_t</span> <span class="n">listAtM</span><span class="p">;</span>
+    <span class="kt">time_t</span> <span class="n">expireAtM</span><span class="p">;</span>
+    <span class="kt">time_t</span> <span class="n">lastTradeDateM</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>NOTE: I have shown time_t but really recommend using something like the Boost
+date/time facilities for this.  </p>
 
-<p>There were several great presentations and most of the slide decks are <a href="http://gotocon.com/chicago-2014/schedule/index.jsp">available</a>.</p>
+<p>We haven&#39;t yet modeled the tick size yet though which is a very important item
+for pricing!</p>
+<div class="highlight"><pre><code class="c++ language-c++" data-lang="c++"><span class="k">class</span> <span class="nc">Instrument</span> <span class="p">{</span>
+  <span class="nl">private:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">nameM</span><span class="p">;</span>
+    <span class="n">Exchange</span> <span class="n">exchangeM</span><span class="p">;</span>
+    <span class="n">currency</span> <span class="n">currencyM</span><span class="p">;</span>
+    <span class="kt">time_t</span> <span class="n">listAtM</span><span class="p">;</span>
+    <span class="kt">time_t</span> <span class="n">expireAtM</span><span class="p">;</span>
+    <span class="kt">double</span> <span class="n">tickSizeM</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Something still seems fishy though.....We still haven&#39;t modeled the underlying
+instrument.  That being said, I will cover it next time but if you want to cover
+the topics here in more detail check out <a href="http://www.cmegroup.com/trading/interest-rates/stir/eurodollar_contract_specifications.html">this</a>.</p>
 
-<p>I&#39;ll leave you with an interview with Tim Bray, a co-founder of the XML specification, who
-spoke on Tuesday evenings keynote.</p>
-
-<iframe width="500" height="500" src="http://www.youtube.com/embed/coPidKaHCvI?color=white&theme=light"></iframe>
+<p>Next, we will review what kind of instrument (derivative) &amp; the underlying instrument
+for the derivative.</p>
 
   </div>
   
@@ -86,7 +139,7 @@ spoke on Tuesday evenings keynote.</p>
 
 <div class="pagination">
   
-    <span class="pagination-item older">Older</span>
+    <a class="pagination-item older" href="/page2">Older</a>
   
   
     <span class="pagination-item newer">Newer</span>
