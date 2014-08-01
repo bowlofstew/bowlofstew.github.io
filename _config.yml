@@ -21,7 +21,7 @@ author:
 github:
   repo:           github.com/bowlofstew/bowlofstew.github.io
 
-version:          1.0.0
+version:          1.0.1
 
 pages_list:
   About: '/about'
@@ -30,3 +30,4 @@ pages_list:
 
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
