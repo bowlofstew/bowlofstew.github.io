@@ -1,1 +1,0 @@
-BOWL OF STEW

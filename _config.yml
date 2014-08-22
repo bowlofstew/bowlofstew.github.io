@@ -2,7 +2,7 @@
 markdown:         redcarpet
 redcarpet:
   extensions: ["tables"]
-pygments:         true
+highlighter:         true
 
 # Permalinks
 permalink:        pretty
@@ -27,7 +27,3 @@ pages_list:
   About: '/about'
   Archive: '/archive'
   Feed: '/atom.xml'
-
-gems:
-  - jekyll-redirect-from
-  - jekyll-sitemap
