@@ -5,7 +5,7 @@ redcarpet:
 highlighter:         true
 
 # Permalinks
-permalink:        pretty
+permalink: /blog/:year/:month/:day/
 
 # Setup
 title:            Bowl of Stew
@@ -21,7 +21,7 @@ author:
 github:
   repo:           github.com/bowlofstew/bowlofstew.github.io
 
-version:          1.0.1
+version:          1.0.2
 
 pages_list:
   About: '/about'
