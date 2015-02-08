@@ -3,6 +3,8 @@ layout: post
 title: "Modelling Instruments"
 comments: true
 permalink: monitoring-financial-instruments
+tags: [cpp]
+layout: post
 ---
 *Listed financial instrument modelling*
 -----

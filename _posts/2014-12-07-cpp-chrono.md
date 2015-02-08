@@ -3,6 +3,8 @@ layout: post
 title: "C++ chrono"
 comments: true
 permalink: cpp-chrono
+tags: [cpp]
+layout: post
 ---
 *Chrono high resolution dive*
 -----

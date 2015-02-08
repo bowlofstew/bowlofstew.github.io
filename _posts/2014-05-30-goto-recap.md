@@ -3,6 +3,7 @@ layout: post
 title: "GOTO Chicago 2014"
 comments: true
 permalink: goto-chicago-conference
+layout: post
 ---
 *Conference Recap*
 -----
