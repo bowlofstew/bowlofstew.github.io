@@ -4,7 +4,7 @@ title: "BIOS vs UEFI"
 comments: true
 permalink: bios-vs-uefi
 description: Discussion of differences between bios and uefi
-tags: [hardware]
+tags: [bios, uefi, hardware, bootkit, stoned]
 layout: post
 ---
 *Differences between BIOS and UEFI*
