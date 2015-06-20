@@ -23,6 +23,13 @@ github:
 
 version:          1.0.2
 
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-51497840-1'
+  getclicky :
+    site_id : '100854903'
+
 pages_list:
   About: '/about'
   Archive: '/archive'
