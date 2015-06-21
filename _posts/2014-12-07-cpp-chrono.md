@@ -9,8 +9,6 @@ layout: post
 *Chrono high resolution dive*
 -----
 
-<!--adsense1-->
-
 I have been toying with the C++ chrono functionality over the last few hours.  The high-resolution functionality is very welcomed compared to the non-portable equivalents (or boost) of 
 times past.  Note there are 2 clocks available to you in this namespace, system_clock and
 steady_clock.  
@@ -85,5 +83,3 @@ steady_clock.
 [chrono reference](http://en.cppreference.com/w/cpp/chrono)
 
 PS: So much better than in [assembly](http://www.jagregory.com/abrash-zen-of-asm/#the-zen-timer)
-
-<!--adsense2-->

@@ -10,8 +10,6 @@ layout: post
 *Differences between BIOS and UEFI*
 -----
 
-<!--adsense1-->
-
 A coworker asked me a question about the differences between the BIOS and UEFI this week.  I gave a general answer but took some time to elaborate more here for anyone interested.
 
 BIOS (basic input/output system) is the program a personal computer's microprocessor uses to get the computer system started after you turn it on. It also manages data flow between the computer's operating system and attached devices such as the hard disk, video adapter, keyboard, mouse and printer.
@@ -49,7 +47,3 @@ So besides increase security against bootkits, UEFI provides increased pains for
 That being said, nothing is secure!
 
 <img src="{{ site.url }}/assets/uefi-leak.png" />
-
-
-
-<!--adsense2-->

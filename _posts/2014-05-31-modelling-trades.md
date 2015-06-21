@@ -9,8 +9,6 @@ layout: post
 *Listed financial instrument modelling*
 -----
 
-<!--adsense1-->
-
 I was thinking about modeling exchange listed financial derivatives.  What do
 you think the main actors are that we need to model for (exchange) listed
 derivatives?  Let us think about the data structures.  I will neglect any
@@ -105,5 +103,3 @@ the topics here in more detail check out [this](http://www.cmegroup.com/trading/
 
 Next, we will review what kind of instrument (derivative) & the underlying instrument
 for the derivative.
-
-<!--adsense2-->

@@ -10,8 +10,6 @@ layout: post
 *C++ libraries of 2014*
 -----
 
-<!--adsense1-->
-
 A quick note listing of some of the C++ libraries that I found interesting in 2014.  Enjoy!
 
 Benchmarking/Profiling:
@@ -97,5 +95,3 @@ Web:
   * [Facebook's Proxygen](https://github.com/facebook/proxygen)
 
   * [Memcached Protocol Router](https://github.com/facebook/mcrouter)
-
-<!--adsense2-->

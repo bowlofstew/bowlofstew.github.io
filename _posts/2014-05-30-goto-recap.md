@@ -8,8 +8,6 @@ layout: post
 *Conference Recap*
 -----
 
-<!--adsense1-->
-
 Our company, Channel IQ, just had the privilege to go to the GOTO Chicago
 conference.  It was phenomenal & thanks to all for making it a great success!  My
 personal favorite presentations were those given by the guys of DRW & Thoughtworks:
@@ -22,5 +20,3 @@ This presentation provided excellent insight into why as a developer, you may
 think your manager is insane!
 
 There were several great presentations and most of the slide decks are [available](http://gotocon.com/chicago-2014/schedule/index.jsp).
-
-<!--adsense2-->
