@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/stewart
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bowlofstew.com
+  * I am stewart (https://keybase.io/stewart) on keybase.
+  * I have a public key with fingerprint 156C 390E C672 CEF9 FDFE  3C71 843E 4EE7 7C5A EE67
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "156c390ec672cef9fdfe3c71843e4ee77c5aee67",
+            "host": "keybase.io",
+            "key_id": "843e4ee77c5aee67",
+            "uid": "b56dd3a21bfae00d38b1827aab291900",
+            "username": "stewart"
+        },
+        "service": {
+            "hostname": "bowlofstew.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408189897,
+    "expire_in": 157680000,
+    "prev": "f61ff592cb1f8846641e9baa51d730f00dcd76501f6e8c392a5c16ae4c309f85",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.3.1
+Comment: https://keybase.io/crypto
+
+yMHvAnicO8LLzMDFuHBr2OVju34eZDx94FMpQ/B715PVSkn5KZVKVtVK2algKi0z
+Lz21qKAoM69EyUrJ0NQs2djSIDXZzNwoOTXNMi0lLdU42dzQwsQ41SQ11dw82TQx
+NdXMXElHKSO/GKQDaExSYnGqXmY+UAzIic9MAYpiUV8KlkgyNUtJMU40MkxKS0w1
+MEgxtkgytDAyT0xMMrI0tDQwACksTi3KS8xNBaouLkktTywqUarVUQIKlmUmp4Kc
+DLIZqiApvzwnPw2kTC85PxeouaAovyQ/OT8HKJdRUlJgBdJaUlkAUluemhQPNSU+
+KTMvBehxoIay1KLizPw8JStDoMrkkkyQsYYmBhaGFpYWluY6SqkVBZlFqfGZIBWm
+5mYWBkAAsia1DGhkmplhWpqppVFykmGahYWJmZmJYaplUmKiqWGKubFBGtB/ySnm
+ZqYGhmlmqRbAgDVKNE02NEtMNUk2NrBMszBVAvmrMC9fycoM6MzEdJCXM9PzEktK
+i1KVag8diGFhYORiYGNlAkUdAxenACxCv6ix/883OrZ5f8U+9ev3I56ypx9Tvt3z
+2NZzmce67ZubJ0XbLvdJzTy0OFAmzqvuweSTlz22HHWPmt/Atdgp7dzSs8/Oi9la
+3+j9k6gaaeP3/EH6qiNzmRY9eiuksujhv33JclE96tr1p5p6z980ePlg8Uf7Xa9/
+/eZXtNraMf/QJd+2+8frV0Wn/z6fe2HJ6zkKoQscJ7XffXLswPV/O7Ycyqwscp/N
+8vnphw0a55azxwQ0el7erGU8JZjj9Iq8bdFl1sG1X8RtHAKnFm+23q9gfohnZXrZ
+Fa37W+ISjl7UOq/LulH0zPZp1iziO2cLNBz7/O/HixLpt7e/Pl23+uwsjmtZX9ym
+3OOet9U6ornkvddSYwBoFyap
+=21Nm
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stewart
+
+==================================================================

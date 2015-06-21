@@ -1,0 +1,16 @@
+Stewart's site
+===================
+
+/* ABOUT */
+
+   Author:      Stewart Henderson
+   Since:       September 6th, 1981
+   Twitter:     @__shenderson__
+   Github:      @bowlofstew
+   Location:    Chicago, IL
+
+/* SITE */
+
+   URL:         http://bowlofstew.com
+   Language:    English
+   Built with:  Jekyll
