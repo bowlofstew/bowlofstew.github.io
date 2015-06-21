@@ -1,23 +1,27 @@
-# Site wide configuration
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions: ["tables"]
+pygments:         true
 
-title: Bowl Of Stew
-description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale:
-url: http://bowlofstew.github.io
+# Permalinks
+permalink: /blog/:year/:month/:day/
 
-# Jekyll configuration
+# Setup
+title:            Bowl of Stew
+tagline:          'Software developer'
+url:              http://bowlofstew.github.io
+shorturl:         bowlofstew.github.io
+paginate:         5
+author:
+  name:           Stewart Henderson
+  url:            https://twitter.com/__shenderson__
+  email:          henderson.geoffrey@gmail.com
 
-sass:
-    sass_dir: _sass
-    style: compressed
-permalink: /:categories/:title/
-kramdown:
-  toc_levels: 1..2
-highlighter: pygments
-gems:
-  - jekyll-sitemap
+github:
+  repo:           github.com/bowlofstew/bowlofstew.github.io
+
+version:          1.0.2
 
 analytics :
   provider : google
@@ -26,17 +30,7 @@ analytics :
   getclicky :
     site_id : '100854903'
 
-# Site owner
-owner:
-  name: Stewart Henderson
-  email: henderson.geoffrey@gmail.com
-  twitter: __shenderson__
-  google:
-    ad-client: 'ca-pub-4593390900259285'
-    ad-slot: '9691101052'
-  bio: 
-  avatar: me.jpg # 160x160 px image for author byline
-disqus-shortname: bowlofstewgithub
-
-
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'

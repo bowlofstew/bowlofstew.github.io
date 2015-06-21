@@ -1,1 +1,1 @@
-# N/A
+BOWL OF STEW
