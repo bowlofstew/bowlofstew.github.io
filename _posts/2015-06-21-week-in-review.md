@@ -4,6 +4,7 @@ title: "Week in review"
 comments: true
 permalink: 20150615review
 layout: post
+tags: [gatling]
 ---
 *Week Review - 6/15/2015*
 -----

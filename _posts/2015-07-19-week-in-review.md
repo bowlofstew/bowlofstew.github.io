@@ -4,6 +4,7 @@ title: "Week in review"
 comments: true
 permalink: 20150615review
 layout: post
+tags: [log, logging]
 ---
 *Week Review - 7/19/2015*
 -----
