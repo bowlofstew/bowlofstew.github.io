@@ -40,7 +40,7 @@ After I read the Dropbox article, I read the requirements for building this soft
 
 Thinking about it, I wondered how bad will it fail in compilation given the newest version of boost, thrift, a modern compiler, and a newer version of Ubuntu?  Since I run on OSX as my primary, let's docker it up....what could possibly go wrong?
 
-First up, I created a base image to build thrift from using a modern-cpp base image that I had created for another project.  The modern-cpp base image contains modern cpp compilers, make systems, and the newest version of boost.  This image then pulls down thrift 0.9.2 tag, compiles it, then installs it.  After that, I pushed this tag to the docker hub.  Next, I created a second docker image that inherits the thrift image, pulls down the scribe source from the Facebook graveyard, then compiles it.  Surprisingly, it all compiled with several warnings.  Go Docker & C++!
+First up, I created a base image to build thrift from using a modern-cpp base image that I had created for another project.  The modern-cpp base image contains modern cpp compilers, make systems, and the newest version of boost.  This image then pulls down thrift 0.9.2 tag, compiles it, then installs it.  After that, I pushed this tag to the docker hub.  Next, I created a second docker image that inherits the thrift image, pulls down the scribe source from the Facebook graveyard, then compiles it.  Unsurprisinly, it blew up! I'm going to fork the Scribe repo, update to a modern build system (probably CMake), fix any other issues, and docker-fy the build.  
 
 I have published all the revelent code in Github and the Docker Hub so here ya go!
 
