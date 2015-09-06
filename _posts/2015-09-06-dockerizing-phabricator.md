@@ -44,4 +44,16 @@ Now its time to do some setup work for the basics:
   bash -c "$(curl -fsSL https://gist.githubusercontent.com/tals/8414170/raw/a7b00372d03b3d7f1fe12c8bcc32420a747b3d6c/install_arcanist.bash)"
   ```
 
-  * Prepare your [arc client] (https://phab.enlightenment.org/w/arcanist/), code and submit your reviews :)
+  * Next open up your terminal and navigate to a directory containing the code that you want to review.  Next create a file file, `.arcconfig`
+
+  ```json
+  {
+  "phabricator.uri" : "http://192.168.59.103:8081/"
+  }
+  ```
+
+  Where the IP address is that of your boot2docker IP address.
+
+  * Next in the Phabricator session in your web browser, create some users to review code using the "+ User Account" in the top right-hand corner.
+
+  * Now change some code in your repository then run `arc diff` and it will walk you thru the process.  Be sure to fill out all the required files such as Test plan.
