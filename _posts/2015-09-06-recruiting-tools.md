@@ -100,3 +100,5 @@ For this bear in mind that GIT commits are malleable and can be manipulated as a
  That is why it is important to verify against say the GitHub statistics API.
 
   [Source] (https://github.com/amoffat/masquerade/commit/9b0562595cc479ac8696110cb0a2d33f8f2b7d29?short_path=04c6e90#diff-04c6e90faac2675aa89e2176d2eec7d8)
+
+  I'm leaving that stage of the process out for now as I am still finalizing the design.
