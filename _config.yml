@@ -2,8 +2,8 @@
 markdown:         redcarpet
 redcarpet:
   extensions: ["tables"]
-pygments:         true
-
+highlighter:         true
+gems: [jekyll-paginate]
 # Permalinks
 permalink: /blog/:year/:month/:day/
 
