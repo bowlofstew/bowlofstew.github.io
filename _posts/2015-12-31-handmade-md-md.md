@@ -10,72 +10,24 @@ tags:
   - google
 ---
 
-<div>
-<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="__shenderson__">Tweet</a> -->
- 
-<a href="https://twitter.com/__shenderson__" class="twitter-follow-button" data-show-count="false">Follow @__shenderson__</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
- 
- </div>
+<div><!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="__shenderson__">Tweet</a> --><a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/__shenderson__">Follow @__shenderson__</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
 
-<!-- Put this just before the closing body tag -->
+<div>&nbsp;</div><!-- Put this just before the closing body tag -->
+
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-I have spent the last month playing with a new build framework called [Bazel] (http://bazel.io/).  Bazel is the open source version of Google's Blaze build system.  This particular build system markets itself as:
+I have spent the 2 months deep in following [Handmade Hero](https://www.youtube.com/user/handmadeheroarchive/playlists) video series. &nbsp;The project seeks to write a 2-D game by hand using no external libraries, etc. &nbsp;It has been a great series so far for getting back into Windows graphics (Yes, it has been awhile for me!). &nbsp;I also enjoy the [rants](https://www.youtube.com/watch?v=jlcmxvQfzKQ) on OOP as it mirrors my own thoughts as well.
 
-```
-Correct, reproducible, fast builds for everyone
-```
+[Handmade Hero site](https://www.youtube.com/user/handmadeheroarchive)
 
-After using it for the last month, it is pretty bad ass.  There are some quirks which come along with using it in beta form but they haven't been too bad (yet).  Prior to using Bazel for C++, I had been using a mixture of build systems for larger projects such as CMake, scons, make, Gradle, etc.
+[Handmade Hero forum](https://hero.handmadedev.org/code-discussion)
 
-My thoughts so far:
+[Handmade Hero YouTube](https://www.youtube.com/user/handmadeheroarchive)
 
-  *  Bazel is way faster than the others
+Earlier, this week I noticed that there was a project called [Handmade Quake](http://philipbuuck.com/announcing-handmade-quake) that [Philip Buuck](https://github.com/philipbuuck) formed. &nbsp;The project seeks to walk thru the source code of Quake and modernize it for use in Visual Studio 2015/Windows 10. &nbsp;This project definite intrigues me as I fondly recall playing Quake as a child.
 
-  *  Migration from any build system to Bazel sucks.
+[Handmade Quake site](http://philipbuuck.com/announcing-handmade-quake)
 
-  *  Java install on the dev box, ugh but I'll deal with it....
+[Handmade Quake Github](https://github.com/philipbuuck/HandmadeQuake)
 
-  *  No tightly integrated plugin system like CMake or Gradle.  Honestly, I don't miss it either.  As an example, instead of using CMake's externalproject_add, I just use git submodules.
-
-  *  Hand-rolling BUILD files for external projects (dependencies) can suck.
-
-  * For the above issue, [this] (https://github.com/mzhaom/trunk) example project has been great.
-
-All this being said, I've drank the Bazel kool aide and ain't going back....well until I need to use Windows again.
-
-Installing it:
-
-```
-git clone https://github.com/bazelbuild/bazel.git
-
-cd bazel
-
-git checkout tags/0.1.0
-
-./compile.sh
-
-sudo cp output/bazel /usr/bin
-```
-
-Useful terminal alias:
-
-```
-alias bzb="bazel build //..." 
-
-alias bzt="bazel test //..."
-```
-
-Transitioning from CMake to Bazel:
-
-Figure out all the third party dependencies, add git submodules, and create BUILD files.  See the above mentioned GitHub repository for concrete examples.
-
-1.  Delete every CMakeLists.txt file
-
-2.  Add a top level WORKSPACE file
-
-3.  Add BUILD files for libraries, executables, etc
-
-The biggest pain that I am really having with this process as my favorite IDE, CLion, doesn't support non-CMake projects so I am back to VIM.
-
+[Handmade Quake YouTube](https://www.youtube.com/user/philipbuuck)
