@@ -17,4 +17,9 @@ tags:
 
 Blog posts of the week:
 
-* &nbsp;
+* [C++ Status at the end of 2015](http://www.bfilipek.com/2015/12/c-status-at-end-of-2015.html)
+* [Levels of Exception Safety](http://arne-mertz.de/2015/12/levels-of-exception-safety/)
+* [Incorporating and accessing binary data into a C program](http://smackerelofopinion.blogspot.de/2015/12/incorporating-and-accesses-binary-data.html?utm_content=buffercdd33&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer)
+* [a problem with LLVM's undef](http://www.playingwithpointers.com/problem-with-undef.html?utm_content=buffer7c2d6&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer)
+* [Embedded Programming with the GNU Toolchain](http://www.bravegnu.org/gnu-eprog/?utm_content=bufferfdd2a&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer)
+* [Getting your C++ to the Web with Node.js](http://blog.scottfrees.com/getting-your-c-to-the-web-with-node-js?utm_content=buffera86bb&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer)
