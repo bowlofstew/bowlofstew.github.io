@@ -15,6 +15,8 @@ tags:
 
 &nbsp;
 
+![](/uploads/versions/vader_water---x----283-400x---.jpg)
+
 Blog posts of the week:
 
 * [C++ Status at the end of 2015](http://www.bfilipek.com/2015/12/c-status-at-end-of-2015.html)
