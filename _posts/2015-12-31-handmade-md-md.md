@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Getting started with Bazel
+title: The Handmade Game Movement
 comments: true
-permalink: getting started with Bazel
+permalink: handmade-movement
 tags:
   - bazel
   - build
