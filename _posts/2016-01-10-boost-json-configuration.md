@@ -21,7 +21,7 @@ Header file: JsonConfig.hpp
 
 {% gist d42d3d7bd9814d573acf %}
 
-Source file: JsonConfig.hpp
+Source file: JsonConfig.cpp
 
 {% gist ec4c06be2d05c195d87a %}
 
