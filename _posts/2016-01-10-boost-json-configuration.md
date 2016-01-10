@@ -17,8 +17,14 @@ tags:
 
 This week, I had a need for a simple JSON reader. &nbsp;I have re-used this pattern several times now so I figured that I would share it now.&nbsp;
 
-Header file:
+Header file: JsonConfig.hpp
 
 {% gist d42d3d7bd9814d573acf %}
+
+Source file: JsonConfig.hpp
+
+{% gist ec4c06be2d05c195d87a %}
+
+This file uses the Boost property tree object.
 
 &nbsp;
