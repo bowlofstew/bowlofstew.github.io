@@ -19,4 +19,6 @@ This week, I had a need for a simple JSON reader. &nbsp;I have re-used this patt
 
 Header file:
 
+{% gist d42d3d7bd9814d573acf %}
+
 &nbsp;
