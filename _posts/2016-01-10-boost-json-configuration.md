@@ -29,4 +29,6 @@ This file uses the [Boost property tree](http://www.boost.org/doc/libs/1_60_0/do
 
 {% gist 5545312b7c21b97eaea5 %}
 
+BOOM, that was easy!
+
 &nbsp;
