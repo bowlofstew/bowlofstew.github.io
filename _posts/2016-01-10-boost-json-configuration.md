@@ -25,6 +25,8 @@ Source file: JsonConfig.hpp
 
 {% gist ec4c06be2d05c195d87a %}
 
-This file uses the [Boost property tree](http://www.boost.org/doc/libs/1_60_0/doc/html/property_tree.html) object to do the configuration parsing. &nbsp;
+This file uses the [Boost property tree](http://www.boost.org/doc/libs/1_60_0/doc/html/property_tree.html) object to do the configuration parsing. &nbsp;An example consumer of this code is:
+
+{% gist 5545312b7c21b97eaea5 %}
 
 &nbsp;
