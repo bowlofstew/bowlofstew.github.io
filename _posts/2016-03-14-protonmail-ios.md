@@ -50,7 +50,7 @@ I have been on the edge of switching from my Google email account for awhile now
 [Protonmail.com](http://protonmail.com/)
 
 {% for i in (1..9) %}
-<img src="assets/protonmail/{{ i }}.png" width="600" height="600"><br>
+<img src="assets/protonmail/{{ i }}.png"><br>
 {% endfor %}
 
 &nbsp;
