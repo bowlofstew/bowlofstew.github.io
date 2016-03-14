@@ -47,7 +47,7 @@ I suspect the later 2 items are more of a feature as it leaks information across
 
 I have been on the edge of switching from my Google email account for awhile now.  I had been looking for a secure email platform with a mobile application for awhile.  Protonmail's hard work on both their web and mobile platform has made me a believer.
 
-{% for i in (1..10) %}
+{% for i in (1..9) %}
 <img src="assets/protonmail/{{ i }}.png"><br>
 {% endfor %}
 
