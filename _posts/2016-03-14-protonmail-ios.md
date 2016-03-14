@@ -41,8 +41,8 @@ I have recently had the chance to check out the ProtonMail iOS application.  I h
 
   * Calendar integration
 
- I suspect the later 2 items are more of a feature as it leaks information across applications and potentially accounts (Protonmail -> Google Calender for example).
+I suspect the later 2 items are more of a feature as it leaks information across applications. Protonmail -> Google Calender for example.
 
- I have been on the edge of switching from my Google email account for awhile now.  I had been looking for a secure email platform with a great mobile application as most of my emails hit the phone long before the desktop now.  Protonmail's hard work on both their web and mobile platform has made me a believer.
+I have been on the edge of switching from my Google email account for awhile now.  I had been looking for a secure email platform with a mobile application for awhile.  Protonmail's hard work on both their web and mobile platform has made me a believer.
 
 &nbsp;
