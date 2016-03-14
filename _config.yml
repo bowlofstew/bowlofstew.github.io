@@ -40,3 +40,4 @@ gems:
   - redcarpet
   - jekyll-gist
   - pygments.rb
+  - jekyll-gallery-generator
