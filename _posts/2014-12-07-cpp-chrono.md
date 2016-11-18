@@ -9,14 +9,6 @@ layout: post
 *Chrono high resolution dive*
 -----
 
-<div>
-<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="__shenderson__">Tweet</a> -->
- 
-<a href="https://twitter.com/__shenderson__" class="twitter-follow-button" data-show-count="false">Follow @__shenderson__</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
- 
- </div>
-
 I have been toying with the C++ chrono functionality over the last few hours.  The high-resolution functionality is very welcomed compared to the non-portable equivalents (or boost) of 
 times past.  Note there are 2 clocks available to you in this namespace, system_clock and
 steady_clock.  
@@ -28,66 +20,71 @@ steady_clock.
   In the below example, the code computes the latency on hitting the processor 
   cache.  The chrono class, high-resolution clock is used for this.  
 
-  ```cpp
-  	#include <iostream>
-	#include <chrono>
-	#include <ctime>
-	#include <cmath>
-	#include <cstdlib>
-	#include <cstdio>
+~~~
+#include <iostream>
+#include <chrono>
+#include <ctime>
+#include <cmath>
+#include <cstdlib>
+#include <cstdio>
 
-	typedef std::chrono::high_resolution_clock::time_point point;
-	typedef std::chrono::high_resolution_clock Time;
-	typedef std::chrono::milliseconds ms;
-	typedef std::chrono::duration<float> fsec;
+typedef std::chrono::high_resolution_clock::time_point point;
+typedef std::chrono::high_resolution_clock Time;
+typedef std::chrono::milliseconds ms;
+typedef std::chrono::duration<float> fsec;
 
-	std::chrono::high_resolution_clock::time_point get_now() {
-	 	return Time::now();
-	}
+std::chrono::high_resolution_clock::time_point get_now() {
+ 	return Time::now();
+}
 
-	ms get_delta(point pA, point pB) {
-		return std::chrono::duration_cast<ms>(pB - pA);
-	}
+ms get_delta(point pA, point pB) {
+	return std::chrono::duration_cast<ms>(pB - pA);
+}
 
-	void print_delta(point pA, point pB) {
-		ms diff = get_delta(pA, pB);
-		std::cout << diff.count() << std::endl;
-	}
+void print_delta(point pA, point pB) {
+	ms diff = get_delta(pA, pB);
+	std::cout << diff.count() << std::endl;
+}
 
-	int main(int argc, char * argv[]) {
-	  for(int i = 0; i < 18; ++i) {
-	  	int size = std::pow(2.0, i) * 1024;
-	  	int * tab = new int[size];
-	  	float average = 0.0;
-	  	for(int j = 0; j < 4; ++j) {
-	  		auto t0 = get_now();		
-	  		for(int k = 0; k < (100*1024*1024); ++k) {
-	  			tab[(k*16)%(size/4)]++;
-	  		}
-	  		average += get_delta(t0, get_now()).count();
-	  	}
-	  	printf("size=%d kB, time:%g ms\n", size/1024, average/4);
-	  	free(tab);
-	  }
-	}
-  ```
+int main(int argc, char * argv[]) {
+  for(int i = 0; i < 18; ++i) {
+  	int size = std::pow(2.0, i) * 1024;
+  	int * tab = new int[size];
+  	float average = 0.0;
+  	for(int j = 0; j < 4; ++j) {
+  		auto t0 = get_now();		
+  		for(int k = 0; k < (100*1024*1024); ++k) {
+  			tab[(k*16)%(size/4)]++;
+  		}
+  		average += get_delta(t0, get_now()).count();
+  	}
+  	printf("size=%d kB, time:%g ms\n", size/1024, average/4);
+  	free(tab);
+  }
+}
+~~~
+{: .language-cpp}
 
   In this example, the clock hasn't been checked to see if it is truly a
   steady state clock so time adjustments may yeild the measurement inaccurate.  In 
   order to correct for this, we should check to see that:
 
-  ```cpp
+~~~
   std::chrono::high_resolution_clock::is_steady == true
-  ```
+~~~
+{: .language-cpp}
+&nbsp;
 
-  Checking on my OSX system,
+  Checking on my OSX system:
 
-  CLOCK KIND 		 	| STEADY |
+  |CLOCK KIND 		 	| STEADY |
   ----------------------|--------|
-  system_clock			|false   |
-  high_resolution_clock |true    |
-  steady_clock			|true	 |
+  |system_clock			|false   |
+  |high_resolution_clock|true    |
+  |steady_clock			|true	 |
 
+
+&nbsp;
 [chrono reference](http://en.cppreference.com/w/cpp/chrono)
 
 PS: So much better than in [assembly](http://www.jagregory.com/abrash-zen-of-asm/#the-zen-timer)

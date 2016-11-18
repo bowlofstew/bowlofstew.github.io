@@ -1,43 +1,36 @@
-# Dependencies
-markdown:         redcarpet
-redcarpet:
-  extensions: ["tables"]
-highlighter:         true
-gems: [jekyll-paginate]
-# Permalinks
-permalink: /blog/:year/:month/:day/
+# Blog settings
+permalink: /blog/:title
 
-# Setup
-title:            Bowl of Stew
-tagline:          'Software developer'
-url:              http://bowlofstew.github.io
-shorturl:         bowlofstew.github.io
-paginate:         5
-author:
-  name:           Stewart Henderson
-  url:            https://twitter.com/__shenderson__
-  email:          henderson.geoffrey@gmail.com
 
-github:
-  repo:           github.com/bowlofstew/bowlofstew.github.io
+# My variables
+name: Stewart Henderson
+description: Software engineer
+google_verification: null
 
-version:          1.0.2
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
 
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+# Analytics
 analytics :
   provider : google
   google : 
     tracking_id : 'UA-51497840-1'
   getclicky :
-    site_id : '100854903'
-
-pages_list:
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
-
+site_id : '100854903'
+highlighter: pygments
 gems:
-  - jekyll-paginate
-  - redcarpet
   - jekyll-gist
   - pygments.rb
-  - jekyll-gallery-generator

@@ -9,10 +9,6 @@ tags:
   - Security
 ---
 
-<div><!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="__shenderson__">Tweet</a> --><a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/__shenderson__">Follow @__shenderson__</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
 &nbsp;
 
 It is time again for my annual system security tune-up across every device I own or manage.  For the OSX based systems, I found [this](https://github.com/drduh/OS-X-Security-and-Privacy-Guide) guide to be very helpful.  Here are the high-points:

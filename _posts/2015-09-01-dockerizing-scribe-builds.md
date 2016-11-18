@@ -7,18 +7,7 @@ layout: post
 tags: [scribe, cpp, thrift, docker]
 ---
 
-<div>
-<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="__shenderson__">Tweet</a> -->
- 
-<a href="https://twitter.com/__shenderson__" class="twitter-follow-button" data-show-count="false">Follow @__shenderson__</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
- 
- </div>
-
-<!-- Put this just before the closing body tag -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-I recently read an article about how Dropbox rewrote a product called [Scribe] (https://blogs.dropbox.com/tech/2015/05/how-to-write-a-better-scribe/).  Facebook open sourced the [software](https://github.com/facebookarchive/scribe).  This was during the era when Facebook open sourced projects then let them die on GitHub hence the facebookarchive account used in GitHub.  There is some rumor that they still use it though.  It appears that Dropbox liked the design enough to rewrite a large chunk of it though.
+I recently read an article about how Dropbox rewrote a product called [Scribe](https://blogs.dropbox.com/tech/2015/05/how-to-write-a-better-scribe/).  Facebook open sourced the [software](https://github.com/facebookarchive/scribe).  This was during the era when Facebook open sourced projects then let them die on GitHub hence the facebookarchive account used in GitHub.  There is some rumor that they still use it though.  It appears that Dropbox liked the design enough to rewrite a large chunk of it though.
 
 So what is Scribe?  Directly from the horses's [mouth](https://www.facebook.com/notes/facebook-engineering/facebooks-scribe-technology-now-open-source/32008268919).
 
@@ -44,12 +33,12 @@ First up, I created a base image to build thrift from using a modern-cpp base im
 
 I have published all the revelent code in Github and the Docker Hub so here ya go!
 
-  * [scribe docker ode] (https://github.com/bowlofstew/docker-scribe)
+  * [scribe docker code](https://github.com/bowlofstew/docker-scribe)
 
-  * [thrift docker code] (https://github.com/bowlofstew/docker-thrift)
+  * [thrift docker code](https://github.com/bowlofstew/docker-thrift)
 
-  * [scribe docker image] (https://hub.docker.com/r/bowlofstew/thrift/)
+  * [scribe docker image](https://hub.docker.com/r/bowlofstew/thrift/)
 
-  * [thrift docker image] (https://hub.docker.com/r/bowlofstew/scribe/)
+  * [thrift docker image](https://hub.docker.com/r/bowlofstew/scribe/)
 
   If you have `docker` installed, you can merely do a `docker pull bowlofstew/thrift` or `docker pull bowlofstew/scribe` to get the images from the Docker Hub.

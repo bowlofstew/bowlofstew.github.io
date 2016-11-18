@@ -9,17 +9,6 @@ tags: [git, history]
 *Squash 'dem commits!*
 -----
 
-<div>
-<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="__shenderson__">Tweet</a> -->
- 
-<a href="https://twitter.com/__shenderson__" class="twitter-follow-button" data-show-count="false">Follow @__shenderson__</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
- 
- </div>
-
-<!-- Put this just before the closing body tag -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
 I usually get pulled into several code review each week.  You can usually tell how much of the stuggle it was for a developer given the GIT commit history:
 
 | commit history | description              							|
@@ -57,14 +46,14 @@ It often pays to have usable commit history in your terminal and here is how to 
 
   * Add the following alias to it:
 
-  ```
+~~~
   [alias]
   lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 
   lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 
   lg = !"git lg1"
-  ```
+~~~
 
   Next time you type in `git lg1` ot `git lg2` in the terminal, it is easier to follow.  I picked this alias up from [StackOverflow] (http://stackoverflow.com/questions/1057564/pretty-git-branch-graphs) to replace mine and have been happy with it.
 
