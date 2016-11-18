@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 11-04-2016 Check-In
+title: 11-04-2016 Algorithms
 comments: true
-permalink: 11042016-check-in
+permalink: 11042016-Algorithms
 tags:
   - daily
 ---
