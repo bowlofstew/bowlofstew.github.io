@@ -9,8 +9,6 @@ tags:
   - assembly
 ---
 
-&nbsp;
-
 ![](/uploads/versions/vader_water---x----283-400x---.jpg)
 
 Blog posts of the week:

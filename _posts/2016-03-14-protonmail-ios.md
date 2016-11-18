@@ -9,8 +9,6 @@ tags:
   - swiss
 ---
 
-&nbsp;
-
 ![](/assets/protonmail/protonmail-icon.png)
 
 I have recently had the chance to check out the ProtonMail iOS application.  I have been using it for 3 days now.  For a newly released application, I would say that it was outstanding.  It has all of the features that you would come to expect from a mobile email application:

@@ -9,8 +9,6 @@ tags:
   - Security
 ---
 
-&nbsp;
-
 It is time again for my annual system security tune-up across every device I own or manage.  For the OSX based systems, I found [this](https://github.com/drduh/OS-X-Security-and-Privacy-Guide) guide to be very helpful.  Here are the high-points:
 
   * VPN -> [CyberGhost](http://www.cyberghostvpn.com)

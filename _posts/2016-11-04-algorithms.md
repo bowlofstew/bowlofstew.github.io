@@ -7,8 +7,6 @@ tags:
   - daily
 ---
 
-&nbsp;
-
 Algorithms and Data Structures:
 
 I stumbled across a [great post](https://news.ycombinator.com/item?id=12871234) in HackerNews about the 

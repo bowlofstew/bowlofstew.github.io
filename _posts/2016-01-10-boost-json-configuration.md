@@ -9,8 +9,6 @@ tags:
   - json
 ---
 
-&nbsp;
-
 This week, I had a need for a simple JSON reader. &nbsp;I have re-used this pattern several times now so I figured that I would share it now.&nbsp;
 
 Header file: JsonConfig.hpp
