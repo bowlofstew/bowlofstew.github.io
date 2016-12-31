@@ -6,8 +6,6 @@ github_username: bowlofstew
 permalink: /:year/:month/:day/:title/
 viewsourceroot: https://github.com/bowlofstew/bowlofstew.github.io/blob/master/
 newsourceroot: https://github.com/bowlofstew/bowlofstew.github.io/master
-disqus_shortname: disqus_TFLeYBCB6j
-disqus_url: "http://bowlofstew.com"
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
 sass:
