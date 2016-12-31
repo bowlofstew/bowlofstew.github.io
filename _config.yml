@@ -1,36 +1,29 @@
-# Blog settings
-permalink: /blog/:title
-
-
-# My variables
-name: Stewart Henderson
-description: Software engineer
-google_verification: null
-
-# File management
+title: Stewart Henderson
+email: henderson.geoffrey@gmail.com
+description: Personal Blog
+twitter_username: __shenderson__
+github_username: bowlofstew
+permalink: /:year/:month/:day/:title/
+viewsourceroot: https://github.com/bowlofstew/bowlofstew.github.io/blob/master/
+newsourceroot: https://github.com/bowlofstew/bowlofstew.github.io/master
+disqus_shortname: disqus_TFLeYBCB6j
+disqus_url: "http://bowlofstew.com"
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
-
-# Sass
 sass:
   style: :compressed
   sass_dir: _sass
-
-# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-
-# Analytics
 analytics :
   provider : google
   google : 
     tracking_id : 'UA-51497840-1'
   getclicky :
 site_id : '100854903'
-highlighter: pygments
 gems:
   - jekyll-gist
   - pygments.rb
