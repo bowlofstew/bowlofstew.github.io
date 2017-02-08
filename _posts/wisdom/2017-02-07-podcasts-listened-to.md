@@ -32,6 +32,6 @@ My daughter got my household addicted to this.  She was a fan of Dirty Jobs and 
 
 So good and in depth but as a warning each episode is a major time commitment!  The last episode around nuclear weapons weighed in at over 6 hours!
 
-[Smart Drug Smarts: Brain Optimization | Nootropics | Neuroscience](http://smartdrugsmarts.com)
+[Smart Drug Smarts: Brain Optimization](http://smartdrugsmarts.com)
 
 In the spirit of more bio-hacking, I began listening (and implementing).  So far, so good but not a super human yet!
