@@ -12,6 +12,10 @@ permalink: /about/
 
 I am a senior software engineer at Uptake Technologies.  They specialize in providing solutions for very complex problems involving massive amounts of data from the internet of things (IoT).  Previously, I worked at a company that specialized in price monitoring of products on the internet and before that, some high-frequency trading firms.
 
+## My Reading List
+
+	[GoodReads](https://www.goodreads.com/bowlofstew){:target="_blank"}
+
 My interests are varying:
 
   *  Algorithms
