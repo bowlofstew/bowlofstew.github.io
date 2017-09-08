@@ -22,6 +22,6 @@ analytics :
     tracking_id : 'UA-51497840-1'
   getclicky :
 site_id : '100854903'
-gems:
+plugins:
   - jekyll-gist
   - pygments.rb
