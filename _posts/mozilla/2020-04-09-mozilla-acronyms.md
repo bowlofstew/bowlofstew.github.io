@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Acronyms @ Mozilla"
-permalink: 2012-mozilla-acronyms
+permalink: 2020-mozilla-acronyms
 layout: post
 tags: [mozilla, 2020, acronyms, jargon, nicknames]
 categories: mozilla
