@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "GIT commit squashing"
-comments: true
 permalink: git-commit-squashing
 layout: post
 tags: [git, history]

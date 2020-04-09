@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Tracking Nutrition
-comments: true
 permalink: 01312017-quantified-diet
 categories: diet
 tags:

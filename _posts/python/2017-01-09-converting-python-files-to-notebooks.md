@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Converting Python files to notebooks"
-comments: true
 permalink: python-file-to-notebooks
 layout: post
 tags: [python, notebooks]

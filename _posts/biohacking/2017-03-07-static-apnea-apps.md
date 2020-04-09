@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Static Apnea for N00bs"
-comments: true
 permalink: static-apnea-n00bs
 layout: post
 tags: [apnea, newbies, b00bs, apps, biohacking]

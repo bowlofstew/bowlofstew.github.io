@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "C++ libraries"
-comments: true
 permalink: cpp-libraries-2014
 description: C++ libraries of 2014
 tags: [cpp]

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Option Trading Textbooks"
-comments: true
 permalink: option-trading-textbooks
 layout: post
 tags: [options, trading, textbooks]

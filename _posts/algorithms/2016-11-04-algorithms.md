@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Algorithms this week
-comments: true
 permalink: 11042016-Algorithms
 categories: algorithms
 tags:

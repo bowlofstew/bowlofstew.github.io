@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Real-time Kernel Patching"
-comments: false
 permalink: rt-patching
 layout: post
 tags: [kernel, rt, patch, jitter, latency, installation]

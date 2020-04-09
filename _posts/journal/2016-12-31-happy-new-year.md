@@ -1,6 +1,5 @@
 ---
 layout: post
-comments: true
 categories: journal
 ---
 

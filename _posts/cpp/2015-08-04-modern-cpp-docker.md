@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Modern C++ compilation, docker'd"
-comments: true
 permalink: modern-cpp-docker
 layout: post
 categories: cpp

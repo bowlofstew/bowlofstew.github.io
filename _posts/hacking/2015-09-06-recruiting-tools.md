@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Developing recruiting tools"
-comments: true
 permalink: recruiting-tools
 layout: post
 tags: [github, git, bash]

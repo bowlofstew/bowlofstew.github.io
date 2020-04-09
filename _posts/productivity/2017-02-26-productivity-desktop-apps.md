@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Productivity Apps, OSX Edition"
-comments: true
 permalink: desktop-productivity-apps-osx
 layout: post
 tags: [productivity, desktop, apps]

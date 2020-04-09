@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Securing OSX
-comments: true
 permalink: 05172016-securing-osx
 categories: security
 tags:

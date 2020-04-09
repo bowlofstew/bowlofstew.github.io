@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Oxygen Concentration on Mt. Everest"
-comments: true
 permalink: everest-oxygen-concentration
 layout: post
 tags: [everest, altitude, chemistry]

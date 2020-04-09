@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "C++ chrono"
-comments: true
 permalink: cpp-chrono
 tags: [cpp]
 categories: cpp

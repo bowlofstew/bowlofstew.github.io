@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Podcasts I Listen To
-comments: true
 permalink: 02072017-podcasts-listened-to
 categories: wisdom
 tags:

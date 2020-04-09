@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Modern C++ compilation - part 2, docker'd"
-comments: true
 permalink: modern-cpp-docker
 layout: post
 tags: [cpp, docker, clang, gcc, cmake, ninja]

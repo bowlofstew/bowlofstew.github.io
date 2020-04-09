@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Creating a simple Boost JSON configuration reader
-comments: true
 permalink: 01102016-json-reader
 categories: boost
 tags:

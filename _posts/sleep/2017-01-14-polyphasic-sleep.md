@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "One of the most productive things that I have ever done"
-comments: true
 permalink: polyphasic-sleep
 layout: post
 tags: [polyphasic-sleep, sleep, sleeping]
