@@ -43,3 +43,5 @@ node_modules
 _site
 Gemfile.lock
 .sass-cache
+
+.jekyll-cache
