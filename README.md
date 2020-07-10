@@ -4,11 +4,9 @@ This repository contains code for the blog at http://www.bowlofstew.com
 
 ## Installation
 
-  `gem install jekyll`
+In a terminal, execute the command:
 
-  `gem install jekyll-gist`
-
-  `gem install pygments.rb`
+`bundle`
 
 ## Running
 
